@@ -1,4 +1,9 @@
-# data
+# Create a virtual environment
+virtualenv venv
+source venv/bin/activate
 
-## run app
+# Install requirements.txt
+pip install -r requirements.txt
+
+# Run app
 python app.py
